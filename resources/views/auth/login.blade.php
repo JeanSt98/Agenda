@@ -26,7 +26,7 @@
               <div class="card-body p-md-5 mx-md-4">
 
                 <div class="text-center">
-                  <img src="{{ asset ('assets/LOGOMINEDUC.JPG')}}"
+                  <img src="{{ asset ('assets/logo.jpg')}}"
                     style="width: 185px;" alt="logo">
                   <h4 class="mt-1 mb-5 pb-1">Distrito 17D06 Eloy Alfaro</h4>
                 </div>
