@@ -2,13 +2,13 @@
     <div class="box-body">
         
         <div class="form-group">
-            {{ form::label('AMIE') }}
-            {{ form::text('AMIE', $unidadFiscal->AMIE, ['class' => 'form-control' . ($errors->has('AMIE') ? ' is-invalid' : ''), 'placeholder' => 'Amie']) }}
+            {{ Form::label('AMIE') }}
+            {{ Form::text('AMIE', $unidadFiscal->AMIE, ['class' => 'form-control' . ($errors->has('AMIE') ? ' is-invalid' : ''), 'placeholder' => 'Amie']) }}
             {!! $errors->first('AMIE', '<div class="invalid-feedback">:message</div>') !!}
         </div>
         <div class="form-group">
-            {{ form::label('Nombre_Institucion') }}
-            {{ form::text('Nombre_Institucion', $unidadFiscal->Nombre_Institucion, ['class' => 'form-control' . ($errors->has('Nombre_Institucion') ? ' is-invalid' : ''), 'placeholder' => 'Nombre Institucion']) }}
+            {{ Form::label('Nombre_Institucion') }}
+            {{ Form::text('Nombre_Institucion', $unidadFiscal->Nombre_Institucion, ['class' => 'form-control' . ($errors->has('Nombre_Institucion') ? ' is-invalid' : ''), 'placeholder' => 'Nombre Institucion']) }}
             {!! $errors->first('Nombre_Institucion', '<div class="invalid-feedback">:message</div>') !!}
         </div>
         <div class="form-group">
@@ -21,13 +21,13 @@
                 
             </div>
         <div class="form-group">
-            {{ form::label('Parroquia') }}
-            {{ form::text('Parroquia', $unidadFiscal->Parroquia, ['class' => 'form-control' . ($errors->has('Parroquia') ? ' is-invalid' : ''), 'placeholder' => 'Parroquia']) }}
+            {{ Form::label('Parroquia') }}
+            {{ Form::text('Parroquia', $unidadFiscal->Parroquia, ['class' => 'form-control' . ($errors->has('Parroquia') ? ' is-invalid' : ''), 'placeholder' => 'Parroquia']) }}
             {!! $errors->first('Parroquia', '<div class="invalid-feedback">:message</div>') !!}
         </div>
         <div class="form-group">
-            {{ form::label('Direccion') }}
-            {{ form::text('Direccion', $unidadFiscal->Direccion, ['class' => 'form-control' . ($errors->has('Direccion') ? ' is-invalid' : ''), 'placeholder' => 'Direccion']) }}
+            {{ Form::label('Direccion') }}
+            {{ Form::text('Direccion', $unidadFiscal->Direccion, ['class' => 'form-control' . ($errors->has('Direccion') ? ' is-invalid' : ''), 'placeholder' => 'Direccion']) }}
             {!! $errors->first('Direccion', '<div class="invalid-feedback">:message</div>') !!}
         </div>
         <div class="form-group">
@@ -49,33 +49,33 @@
                 
             </div>
         <div class="form-group">
-            {{ form::label('Nombre_de_la_Autoridad') }}
-            {{ form::text('Nombre_de_la_Autoridad', $unidadFiscal->Nombre_de_la_Autoridad, ['class' => 'form-control' . ($errors->has('Nombre_de_la_Autoridad') ? ' is-invalid' : ''), 'placeholder' => 'Nombre De La Autoridad']) }}
+            {{ Form::label('Nombre_de_la_Autoridad') }}
+            {{ Form::text('Nombre_de_la_Autoridad', $unidadFiscal->Nombre_de_la_Autoridad, ['class' => 'form-control' . ($errors->has('Nombre_de_la_Autoridad') ? ' is-invalid' : ''), 'placeholder' => 'Nombre De La Autoridad']) }}
             {!! $errors->first('Nombre_de_la_Autoridad', '<div class="invalid-feedback">:message</div>') !!}
         </div>
         <div class="form-group">
-            {{ form::label('Cedula_de_la_Autoridad') }}
-            {{ form::text('Cedula_de_la_Autoridad', $unidadFiscal->Cedula_de_la_Autoridad, ['class' => 'form-control' . ($errors->has('Cedula_de_la_Autoridad') ? ' is-invalid' : ''), 'placeholder' => 'Cedula De La Autoridad']) }}
+            {{ Form::label('Cedula_de_la_Autoridad') }}
+            {{ Form::text('Cedula_de_la_Autoridad', $unidadFiscal->Cedula_de_la_Autoridad, ['class' => 'form-control' . ($errors->has('Cedula_de_la_Autoridad') ? ' is-invalid' : ''), 'placeholder' => 'Cedula De La Autoridad']) }}
             {!! $errors->first('Cedula_de_la_Autoridad', '<div class="invalid-feedback">Cedula Incorrecta</div>') !!}
         </div>
         <div class="form-group">
-            {{ form::label('Celular') }}
-            {{ form::text('Celular', $unidadFiscal->Celular, ['class' => 'form-control' . ($errors->has('Celular') ? ' is-invalid' : ''), 'placeholder' => 'Celular']) }}
+            {{ Form::label('Celular') }}
+            {{ Form::text('Celular', $unidadFiscal->Celular, ['class' => 'form-control' . ($errors->has('Celular') ? ' is-invalid' : ''), 'placeholder' => 'Celular']) }}
             {!! $errors->first('Celular', '<div class="invalid-feedback">:message</div>') !!}
         </div>
         <div class="form-group">
-            {{ form::label('Correo_Institucional') }}
-            {{ form::text('Correo_Institucional', $unidadFiscal->Correo_Institucional, ['class' => 'form-control' . ($errors->has('Correo_Institucional') ? ' is-invalid' : ''), 'placeholder' => 'Correo Institucional']) }}
+            {{ Form::label('Correo_Institucional') }}
+            {{ Form::text('Correo_Institucional', $unidadFiscal->Correo_Institucional, ['class' => 'form-control' . ($errors->has('Correo_Institucional') ? ' is-invalid' : ''), 'placeholder' => 'Correo Institucional']) }}
             {!! $errors->first('Correo_Institucional', '<div class="invalid-feedback">:message</div>') !!}
         </div>
         <div class="form-group">
-            {{ form::label('Telefono_Rectorado') }}
-            {{ form::text('Telefono_Rectorado', $unidadFiscal->Telefono_Rectorado, ['class' => 'form-control' . ($errors->has('Telefono_Rectorado') ? ' is-invalid' : ''), 'placeholder' => 'Telefono Rectorado']) }}
+            {{ Form::label('Telefono_Rectorado') }}
+            {{ Form::text('Telefono_Rectorado', $unidadFiscal->Telefono_Rectorado, ['class' => 'form-control' . ($errors->has('Telefono_Rectorado') ? ' is-invalid' : ''), 'placeholder' => 'Telefono Rectorado']) }}
             {!! $errors->first('Telefono_Rectorado', '<div class="invalid-feedback">:message</div>') !!}
         </div>
         <div class="form-group">
-            {{ form::label('Email_Institucion') }}
-            {{ form::text('Email_Institucion', $unidadFiscal->Email_Institucion, ['class' => 'form-control' . ($errors->has('Email_Institucion') ? ' is-invalid' : ''), 'placeholder' => 'Email Institucion']) }}
+            {{ Form::label('Email_Institucion') }}
+            {{ Form::text('Email_Institucion', $unidadFiscal->Email_Institucion, ['class' => 'form-control' . ($errors->has('Email_Institucion') ? ' is-invalid' : ''), 'placeholder' => 'Email Institucion']) }}
             {!! $errors->first('Email_Institucion', '<div class="invalid-feedback">:message</div>') !!}
         </div>
         <div class="form-group">
@@ -88,13 +88,13 @@
                 
             </div>
         <div class="form-group">
-            {{ form::label('Total_Estudiantes') }}
-            {{ form::text('Total_Estudiantes', $unidadFiscal->Total_Estudiantes, ['class' => 'form-control' . ($errors->has('Total_Estudiantes') ? ' is-invalid' : ''), 'placeholder' => 'Total Estudiantes']) }}
+            {{ Form::label('Total_Estudiantes') }}
+            {{ Form::text('Total_Estudiantes', $unidadFiscal->Total_Estudiantes, ['class' => 'form-control' . ($errors->has('Total_Estudiantes') ? ' is-invalid' : ''), 'placeholder' => 'Total Estudiantes']) }}
             {!! $errors->first('Total_Estudiantes', '<div class="invalid-feedback">:message</div>') !!}
         </div>
         <div class="form-group">
-            {{ form::label('Total_Docentes_Institucion') }}
-            {{ form::text('Total_Docentes_Institucion', $unidadFiscal->Total_Docentes_Institucion, ['class' => 'form-control' . ($errors->has('Total_Docentes_Institucion') ? ' is-invalid' : ''), 'placeholder' => 'Total Docentes Institucion']) }}
+            {{ Form::label('Total_Docentes_Institucion') }}
+            {{ Form::text('Total_Docentes_Institucion', $unidadFiscal->Total_Docentes_Institucion, ['class' => 'form-control' . ($errors->has('Total_Docentes_Institucion') ? ' is-invalid' : ''), 'placeholder' => 'Total Docentes Institucion']) }}
             {!! $errors->first('Total_Docentes_Institucion', '<div class="invalid-feedback">:message</div>') !!}
         </div>
         <div class="form-group">
@@ -116,18 +116,18 @@
                 
             </div>
         <div class="form-group">
-            {{ form::label('Piloto') }}
-            {{ form::text('Jornadas', $unidadFiscal->Jornadas, ['class' => 'form-control' . ($errors->has('Jornadas') ? ' is-invalid' : ''), 'placeholder' => 'Piloto']) }}
+            {{ Form::label('Piloto') }}
+            {{ Form::text('Jornadas', $unidadFiscal->Jornadas, ['class' => 'form-control' . ($errors->has('Jornadas') ? ' is-invalid' : ''), 'placeholder' => 'Piloto']) }}
             {!! $errors->first('Jornadas', '<div class="invalid-feedback">:message</div>') !!}
         </div>
         <div class="form-group">
-            {{ form::label('Coordenadas_x') }}
-            {{ form::text('Coordenadas_x', $unidadFiscal->Coordenadas_x, ['class' => 'form-control' . ($errors->has('Coordenadas_x') ? ' is-invalid' : ''), 'placeholder' => 'Coordenadas X']) }}
+            {{ Form::label('Coordenadas_x') }}
+            {{ Form::text('Coordenadas_x', $unidadFiscal->Coordenadas_x, ['class' => 'form-control' . ($errors->has('Coordenadas_x') ? ' is-invalid' : ''), 'placeholder' => 'Coordenadas X']) }}
             {!! $errors->first('Coordenadas_x', '<div class="invalid-feedback">:message</div>') !!}
         </div>
         <div class="form-group">
-            {{ form::label('Coordenadas_y') }}
-            {{ form::text('Coordenadas_y', $unidadFiscal->Coordenadas_y, ['class' => 'form-control' . ($errors->has('Coordenadas_y') ? ' is-invalid' : ''), 'placeholder' => 'Coordenadas Y']) }}
+            {{ Form::label('Coordenadas_y') }}
+            {{ Form::text('Coordenadas_y', $unidadFiscal->Coordenadas_y, ['class' => 'form-control' . ($errors->has('Coordenadas_y') ? ' is-invalid' : ''), 'placeholder' => 'Coordenadas Y']) }}
             {!! $errors->first('Coordenadas_y', '<div class="invalid-feedback">:message</div>') !!}
         </div>
 
