@@ -1,3 +1,35 @@
+@section('js')
+<script>
+  function miFunc() {
+    $('.editar').submit(function(e){
+        e.preventDefault();
+        const swalWithBootstrapButtons = Swal.mixin({
+  customClass: {
+    confirmButton: 'btn btn-success',
+    cancelButton: 'btn btn-danger'
+  },
+  buttonsStyling: false
+})
+
+swalWithBootstrapButtons.fire({
+  title: 'Estas Seguro?',
+  text: "De modificar la informacion",
+  icon: 'warning',
+  showCancelButton: true,
+  confirmButtonText: 'Continuar!',
+  cancelButtonText: 'Cancelar!',
+  reverseButtons: true
+}).then((result) => {
+  if (result.isConfirmed) {
+
+    
+    this.submit();
+  } 
+});
+  })
+}
+</script>
+@endsection
 <div class="box box-info padding-1">
     <div class="box-body">
         
@@ -42,35 +74,3 @@
         <button onclick="miFunc()" class="btn btn-primary">{{ __('Guardar') }}</button>
     </div>
 </div>
-@section('js')
-<script>
-  function miFunc() {
-    $('.editar').submit(function(e){
-        e.preventDefault();
-        const swalWithBootstrapButtons = Swal.mixin({
-  customClass: {
-    confirmButton: 'btn btn-success',
-    cancelButton: 'btn btn-danger'
-  },
-  buttonsStyling: false
-})
-
-swalWithBootstrapButtons.fire({
-  title: 'Estas Seguro?',
-  text: "De modificar la informacion",
-  icon: 'warning',
-  showCancelButton: true,
-  confirmButtonText: 'Continuar!',
-  cancelButtonText: 'Cancelar!',
-  reverseButtons: true
-}).then((result) => {
-  if (result.isConfirmed) {
-
-    
-    this.submit();
-  } 
-});
-  })
-}
-</script>
-@endsection

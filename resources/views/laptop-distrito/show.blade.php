@@ -4,7 +4,7 @@
 @section('content_header')
 
 @section('template_title')
-    {{ $laptopDistrito->name ?? "{{ __('Show') Laptop Distrito" }}
+Laptop
 @endsection
 
 @section('content')

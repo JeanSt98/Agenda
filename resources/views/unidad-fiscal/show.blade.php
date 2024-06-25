@@ -1,7 +1,7 @@
 @extends('adminlte::page')
 
 @section('template_title')
-    {{ $unidadFiscal->name ?? "{{ __('Show') Unidad Fiscal" }}
+Unidad Fiscal
 @endsection
 
 @section('content')
@@ -39,7 +39,7 @@
                         <a class="list-group-item list-group-item-action list-group-item-primary"><strong>Celular: </strong>{{ $unidadFiscal->Celular }}</a>
                     </div>
                     <div class="row row-cols-2">
-                        <a class="list-group-item list-group-item-action list-group-item-primary active"><Strong>Correo Institucional:</Strong>{{ $unidadFiscal->Correo_Institucional }}</a>
+                        <a class="list-group-item list-group-item-action list-group-item-primary active"><Strong>Correo Institucional:</Strong><br>{{ $unidadFiscal->Correo_Institucional }}</a>
                         <a class="list-group-item list-group-item-action list-group-item-primary"><strong>Telefono Rectorado: </strong>{{ $unidadFiscal->Telefono_Rectorado }}</a>
                     </div>
                     <div class="row row-cols-2">

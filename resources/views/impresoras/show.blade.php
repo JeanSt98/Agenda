@@ -4,7 +4,7 @@
 @section('content_header')
 
 @section('template_title')
-    {{ $impresoras->name ?? "{{ __('Show') Impresoras" }}
+Impresoras
 @endsection
 
 @section('content')

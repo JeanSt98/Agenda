@@ -4,7 +4,7 @@
 @section('content_header')
 
 @section('template_title')
-    {{ $pcEscritorio->name ?? "{{ __('Show') Pc Escritorio" }}
+Pc Escritorio
 @endsection
 
 @section('content')

@@ -2,7 +2,7 @@
 
 
 @section('template_title')
-    {{ $telefonoDistrito->name ?? "{{ __('Show') Telefono Distrito" }}
+Telefono
 @endsection
 
 

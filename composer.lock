@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "650de0f25b257309bc34fd6f279690df",
+    "content-hash": "87428c817291a5d52c80ad71a84b554e",
     "packages": [
         {
             "name": "almasaeed2010/adminlte",
@@ -48,54 +48,6 @@
                 "source": "https://github.com/ColorlibHQ/AdminLTE/tree/v3.2.0"
             },
             "time": "2022-02-07T20:33:09+00:00"
-        },
-        {
-            "name": "backfron/cedula-ecuador",
-            "version": "0.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/backfron/cedula-ecuador.git",
-                "reference": "ef8d2cb6dfa60876f2fd329a6e892e02e0bf0e89"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/backfron/cedula-ecuador/zipball/ef8d2cb6dfa60876f2fd329a6e892e02e0bf0e89",
-                "reference": "ef8d2cb6dfa60876f2fd329a6e892e02e0bf0e89",
-                "shasum": ""
-            },
-            "require-dev": {
-                "phpunit/phpunit": "^9",
-                "sempro/phpunit-pretty-print": "^1.3"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Backfron\\CedulaEcuador\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Jairo",
-                    "email": "jago86@gmail.com"
-                }
-            ],
-            "description": "Package to validate and obtain information on ecuadorian CI.",
-            "keywords": [
-                "DNI",
-                "cedula",
-                "ecuador",
-                "validar",
-                "validation"
-            ],
-            "support": {
-                "issues": "https://github.com/backfron/cedula-ecuador/issues",
-                "source": "https://github.com/backfron/cedula-ecuador/tree/0.2"
-            },
-            "time": "2020-12-23T21:25:32+00:00"
         },
         {
             "name": "brick/math",

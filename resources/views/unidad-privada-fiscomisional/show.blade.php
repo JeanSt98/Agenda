@@ -4,7 +4,7 @@
 @section('content_header')
 
 @section('template_title')
-    {{ $unidadPrivadaFiscomisional->name ?? "{{ __('Show') Unidad Privada Fiscomisional" }}
+Unidad Privada Fiscomisional
 @endsection
 
 @section('content')
