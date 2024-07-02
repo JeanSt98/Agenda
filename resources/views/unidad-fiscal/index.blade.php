@@ -185,7 +185,7 @@ $(document).ready(function() {
 
 swalWithBootstrapButtons.fire({
   title: 'Estas Seguro?',
-  text: "No podras recuperar este registro depues!",
+  text: "No podras recuperar este registro despues!",
   icon: 'warning',
   showCancelButton: true,
   confirmButtonText: 'Si, Borralo!',
